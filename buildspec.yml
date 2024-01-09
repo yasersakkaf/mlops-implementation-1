@@ -24,7 +24,7 @@ phases:
     runtime-versions:
       python: 3.9
     commands:
-      - pip install --upgrade --force-reinstall . "awscli>1.20.30"
+      - pip install --upgrade --force-reinstall "awscli>1.20.30"
       - pip install requirements.txt
       # name: version
       # name: version
